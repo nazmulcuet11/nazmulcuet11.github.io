@@ -333,6 +333,30 @@
         </div>
       </div>
 
+      <div class="row project__card" data-toggle="modal" data-target="#comm_chat_modal" data-project-tag="mobile-app">
+        <div class="col-md-5 col-lg-4 project__card__image">
+          <img src="./images/project/commchat.png" alt="CommChat App">
+        </div>
+        <div class="col-md-7 col-lg-8 project__card__info">
+          <h3 class="project__card__title">CommChat App</h3>
+          <p class="project__card__description">
+            CommChat is a FREE messaging and calling app that promises – and delivers – utmost privacy and security. With innovative features such as auto translation, animated avatars and more, CommChat has made staying connected online easier and more fun! Make audio and video calls, send text messages, form a group chat with friends and family – all in absolute privacy!
+          </p>
+          <div class="project__card__tech-stack">
+            <p class="project__card__stack__title">Used Stack</p>
+            <code class="code code-small m-b-5">Swift</code>
+            <code class="code code-small m-b-5">MQTT</code>
+            <code class="code code-small m-b-5">CouchbaseLiteSwift</code>
+            <code class="code code-small m-b-5">CocoaLumberjack</code>
+            <code class="code code-small m-b-5">CallKit</code>
+            <code class="code code-small m-b-5">MessageKit</code>
+            <code class="code code-small m-b-5">BackgroundTasks</code>
+          </div>
+          <a href="https://apps.apple.com/us/app/commchat-messenger/id1558420730#?platform=iphone"
+            class="project__card__link" target="blank">View in App Store &rarr;</a>
+        </div>
+      </div>
+
       <div class="row project__card" data-toggle="modal" data-target="#share_trip_modal" data-project-tag="mobile-app">
         <div class="col-md-5 col-lg-4 project__card__image">
           <img src="./images/project/sharetrip.png" alt="Share Trip App">
@@ -442,6 +466,42 @@
 
   <!-- Project modals -->
   <section class="project__modals">
+    <div class="modal fade project__modal" id="comm_chat_modal" tabindex="-1" role="dialog" style="display: none;"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content project__modal__content">
+          <div class="modal-header project__modal__header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body col-md-11 col-lg-10 ml-auto mr-auto project__modal__body">
+            <h3 class="project__card__title project__modal__title">CommChat iOS App for TigerIT</h3>
+            <img class="project__modal__image" src="/images/project/commchat-modal.png" alt="modal_img">
+            <p class="project__card__description project__modal__description">
+              CommChat is a FREE messaging and calling app that promises – and delivers – utmost privacy and security. With innovative features such as auto translation, animated avatars and more, CommChat has made staying connected online easier and more fun! Make audio and video calls, send text messages, form a group chat with friends and family – all in absolute privacy!
+              <br><br>
+              Unlimited Audio & Video Calls. No limits, no surveillance, No cost!
+              <br><br>
+              I have developed the chat module for the CommChat iOS App that uses MQTT to transmit messages and signal protocol to establish the end-to-end encrypted messaging session. Used URLSession to develop the networking service layer that facilitates communication with backend REST APIs, uploading/downloading files in the background. I developed backup/restore capability using iCloud Container and Spotlight Metadata Query APIs to back up user’s files and messages and restore them on demand. Used CouchbaseLiteSwift to develop the persistence storage for messages. Developed Screen-Share capability using Broadcast Extension to capture user’s iPhone screen and publish it during a call.
+            </p>
+            <div class="project__card__tech-stack">
+              <p class="project__card__stack__title">Used Stack</p>
+              <code class="code code-small m-b-5">Swift</code>
+              <code class="code code-small m-b-5">MQTT</code>
+              <code class="code code-small m-b-5">CouchbaseLiteSwift</code>
+              <code class="code code-small m-b-5">CocoaLumberjack</code>
+              <code class="code code-small m-b-5">CallKit</code>
+              <code class="code code-small m-b-5">MessageKit</code>
+              <code class="code code-small m-b-5">BackgroundTasks</code>
+            </div>
+            <a href="https://apps.apple.com/us/app/commchat-messenger/id1558420730#?platform=iphone"
+              class="project__card__link" target="blank">View in App Store &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="modal fade project__modal" id="share_trip_modal" tabindex="-1" role="dialog" style="display: none;"
       aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
