@@ -33,10 +33,10 @@
             "id": 1,
             "component": "ArticleCards",
             "locales": {
-                "en": { "title": "Certifications" },
-                "es": { "title": "Certificaciones" },
-                "fr": { "title": "Certifications" },
-                "ko": { "title": "인증서" }
+                "en": { "title": "Achievements" },
+                "es": { "title": "Logros" },
+                "fr": { "title": "Réalisations" },
+                "ko": { "title": "성과" }
             },
             "settings": {
                 "order_items_by": "id",
@@ -46,96 +46,35 @@
                 {
                     "id": 1,
                     "img": "",
-                    "faIcon": "fa-solid fa-life-ring",
+                    "faIcon": "fa-solid fa-trophy",
                     "faIconColors": {"bg": "#326CE5", "fill": "#EEE"},
-                    "date": {"year": 2020, "month": 12},
-                    "link": {"href": "https://www.linuxfoundation.org/", "tooltipString": "see_certification"},
+                    "date": {"year": 2021, "month": 1},
+                    "link": {"href": "https://www.grameenphone.com/about/career/digital-ninja", "tooltipString": "open_website"},
                     "locales": {
                         "en": {
-                            "title": "The {{Linux Foundation}}",
-                            "text": "Certified Kubernetes Administrator (CKA)"
+                            "title": "{{Grameenphone}} Digital Ninja Hackathon 2021",
+                            "text": "Runner-up among 50+ participants"
                         },
-                        "es": {
-                            "text": "Administrador de Kubernetes Certificado (CKA)"
-                        },
-                        "fr": {
-                            "text": "Administrateur Kubernetes Certifié (CKA)"
-                        },
-                        "ko": {
-                            "text": "Kubernetes 인증 관리자 (CKA)"
-                        }
+                        "es": {"text": "Subcampeón entre 50+ participantes"},
+                        "fr": {"text": "Deuxième place parmi 50+ participants"},
+                        "ko": {"text": "50명 이상 중 준우승"}
                     }
                 },
-
                 {
                     "id": 2,
                     "img": "",
-                    "faIcon": "fa-brands fa-aws",
-                    "faIconColors": {"bg": "#FFD700", "fill": "#111"},
-                    "date": {"year": 2021, "month": 5},
-                    "link": {"href": "https://www.aws.com/", "tooltipString": "see_certification"},
+                    "faIcon": "fa-solid fa-award",
+                    "faIconColors": {"bg": "#1428a0", "fill": "#EEE"},
+                    "date": {"year": 2018, "month": 1},
+                    "link": {"href": "https://research.samsung.com/srbd", "tooltipString": "open_website"},
                     "locales": {
                         "en": {
-                            "title": "{{Amazon}} Web Services",
-                            "text": "AWS Certified Solutions Architect – Associate"
+                            "title": "{{Samsung}} Software Competency Test",
+                            "text": "Achieved Professional Level, 2018"
                         },
-                        "es": {
-                            "text": "Arquitecto de Soluciones Certificado por AWS - Asociado"
-                        },
-                        "fr": {
-                            "text": "Architecte de Solutions Certifié AWS - Associé"
-                        },
-                        "ko": {
-                            "text": "AWS 공인 솔루션 아키텍트 - 준회원"
-                        }
-                    }
-                },
-
-                {
-                    "id": 3,
-                    "img": "",
-                    "faIcon": "fa-brands fa-java",
-                    "faIconColors": {"bg": "#007396", "fill": "#EEE"},
-                    "date": {"year": 2022, "month": 5},
-                    "link": {"href": "https://www.oracle.com/", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{Oracle}}",
-                            "text": "Certified Java Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Java Certificado"
-                        },
-                        "fr": {
-                            "text": "Développeur Java Certifié"
-                        },
-                        "ko": {
-                            "text": "공인 자바 개발자"
-                        }
-                    }
-                },
-
-                {
-                    "id": 4,
-                    "img": "",
-                    "faIcon": "fa-solid fa-database",
-                    "faIconColors": {"bg": "#47A248", "fill": "#EEE"},
-                    "date": {"year": 2023, "month": 8},
-                    "link": {"href": "https://www.mongodb.com/", "tooltipString": "see_certification"},
-                    "locales": {
-                        "en": {
-                            "title": "{{MongoDB}} University",
-                            "text": "MongoDB Certified Developer"
-                        },
-                        "es": {
-                            "text": "Desarrollador Certificado de MongoDB"
-                        },
-                        "fr": {
-                            "text": "Développeur Certifié MongoDB"
-                        },
-                        "ko": {
-                            "text": "MongoDB 공인 개발자"
-                        }
+                        "es": {"text": "Nivel profesional alcanzado, 2018"},
+                        "fr": {"text": "Niveau professionnel atteint, 2018"},
+                        "ko": {"text": "프로페셔널 레벨 달성, 2018"}
                     }
                 }
             ]
@@ -158,108 +97,48 @@
             "items": [
                 {
                     "id": 1,
-                    "date": {"year": 2019, "month": 9},
+                    "date": {"year": 2015, "month": 1},
                     "preview": {
-                        "links": [
-                            {"href": "https://mag.wcoomd.org/uploads/2018/05/blank.pdf", "tooltipString": "read", "faIcon": "fa-solid fa-file-pdf"}
-                        ],
+                        "links": [],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "{{Best Graduation Project}} – Backend Optimization",
-                            "province": "Massachusetts",
-                            "country": "US",
-                            "institution": "MIT",
-                            "text": "Awarded for outstanding performance in optimizing backend systems during my final year project where I improved the efficiency of data processing by 30%. I have also received a certificate of recognition for this achievement."
+                            "title": "{{2nd place}} – International Islamic University Programming Contest (IIUPC) 2015",
+                            "province": "",
+                            "country": "",
+                            "institution": "Team: CUET_Black_Flags",
+                            "text": "Secured 2nd place among 30+ teams."
                         },
-                        "es": {
-                            "title": "{{Mejor Proyecto de Fin de Carrera}} – Optimización Backend",
-                            "province": "Massachusetts",
-                            "country": "EE.UU.",
-                            "institution": "MIT",
-                            "text": "Premiado por un rendimiento excepcional en la optimización de sistemas backend durante mi proyecto de fin de carrera, donde mejoré la eficiencia del procesamiento de datos en un 30%. También he recibido un certificado de reconocimiento por este logro."
-                        },
-                        "fr": {
-                            "title": "{{Meilleur Projet de Fin d'Études}} – Optimisation Backend",
-                            "province": "Massachusetts",
-                            "country": "États-Unis",
-                            "institution": "MIT",
-                            "text": "Récompensé pour une performance exceptionnelle dans l'optimisation des systèmes backend lors de mon projet de fin d'études, où j'ai amélioré l'efficacité du traitement des données de 30%. J'ai également reçu un certificat de reconnaissance pour cette réalisation."
-                        },
-                        "ko": {
-                            "title": "{{최우수 졸업 프로젝트}} – 백엔드 최적화",
-                            "province": "매사추세츠",
-                            "country": "미국",
-                            "institution": "MIT",
-                            "text": "졸업 프로젝트에서 백엔드 시스템 최적화로 뛰어난 성과를 인정받아 수상하였으며, 데이터 처리 효율을 30% 향상시켰습니다. 이 성과에 대한 인증서도 받았습니다."
-                        }
+                        "es": {"title": "{{2º lugar}} – IIUPC 2015", "province": "", "country": "", "institution": "Equipo: CUET_Black_Flags", "text": "2º lugar entre 30+ equipos."},
+                        "fr": {"title": "{{2e place}} – IIUPC 2015", "province": "", "country": "", "institution": "Équipe: CUET_Black_Flags", "text": "2e place parmi 30+ équipes."},
+                        "ko": {"title": "{{2위}} – IIUPC 2015", "province": "", "country": "", "institution": "팀: CUET_Black_Flags", "text": "30+ 팀 중 2위."}
                     }
                 },
 
                 {
                     "id": 2,
-                    "date": {"year": 2020, "month": 5},
+                    "date": {"year": 2014, "month": 1},
                     "preview": {
-                        "links": [
-                            {"href": "https://github.com/ryanbalieiro/react-portfolio-template", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"},
-                            {"href": "https://www.linuxfoundation.org/", "tooltipString": "open_website", "faIcon": "fa-brands fa-linux"}
-                        ],
+                        "links": [],
                         "screenshots": [],
                         "screenshotsAspectRatio": "",
                         "youtubeVideo": ""
                     },
                     "locales": {
                         "en": {
-                            "title": "{{Top Contributor}} – Open Source Linux Foundation Project",
+                            "title": "{{27th}} – Bangladesh University Programming Contest (QAAIPC) 2014",
                             "province": "",
                             "country": "",
-                            "institution": "Linux Foundation",
-                            "text": "Recognized as a top contributor for my significant contributions to an open source project under the Linux Foundation, where I implemented key features and resolved critical bugs, enhancing the project's stability and performance. My contributions involved: ",
-                            "list": [
-                                "Implementing a new feature that improved user experience by 25%",
-                                "Resolving over 50 critical bugs that enhanced system reliability",
-                                "Contributing to the documentation and community support"
-                            ]
+                            "institution": "Team: CUET_Black_Flags",
+                            "text": "Ranked 27th among 150+ teams.",
+                            "list": []
                         },
-                        "es": {
-                            "title": "{{Contribuyente Destacado}} – Proyecto de Código Abierto de la Fundación Linux",
-                            "province": "",
-                            "country": "",
-                            "institution": "Fundación Linux",
-                            "text": "Reconocido como un contribuyente destacado por mis contribuciones significativas a un proyecto de código abierto bajo la Fundación Linux, donde implementé características clave y resolví errores críticos, mejorando la estabilidad y el rendimiento del proyecto. Mis contribuciones incluyeron: ",
-                            "list": [
-                                "Implementación de una nueva característica que mejoró la experiencia del usuario en un 25%",
-                                "Resolución de más de 50 errores críticos que mejoraron la fiabilidad del sistema",
-                                "Contribución a la documentación y soporte comunitario"
-                            ]
-                        },
-                        "fr": {
-                            "title": "{{Contributeur Principal}} – Projet Open Source de la Fondation Linux",
-                            "province": "",
-                            "country": "",
-                            "institution": "Fondation Linux",
-                            "text": "Reconnu comme un contributeur principal pour mes contributions significatives à un projet open source sous la Fondation Linux, où j'ai implémenté des fonctionnalités clés et résolu des bugs critiques, améliorant la stabilité et les performances du projet. Mes contributions ont inclus : ",
-                            "list": [
-                                "Implémentation d'une nouvelle fonctionnalité qui a amélioré l'expérience utilisateur de 25%",
-                                "Résolution de plus de 50 bugs critiques qui ont amélioré la fiabilité du système",
-                                "Contribution à la documentation et au support communautaire"
-                            ]
-                        },
-                        "ko": {
-                            "title": "{{최고 기여자}} – 오픈 소스 리눅스 재단 프로젝트",
-                            "province": "",
-                            "country": "",
-                            "institution": "리눅스 재단",
-                            "text": "리눅스 재단의 오픈 소스 프로젝트에 대한 중요한 기여로 최고 기여자로 인정받았으며, 주요 기능을 구현하고 중요한 버그를 해결하여 프로젝트의 안정성과 성능을 향상시켰습니다. 제 기여 내용은 다음과 같습니다: ",
-                            "list": [
-                                "사용자 경험을 25% 향상시킨 새로운 기능 구현",
-                                "시스템 신뢰성을 향상시킨 50개 이상의 중요한 버그 해결",
-                                "문서화 및 커뮤니티 지원에 기여"
-                            ]
-                        }
+                        "es": {"title": "{{27º}} – QAAIPC 2014", "province": "", "country": "", "institution": "Equipo: CUET_Black_Flags", "text": "27º entre 150+ equipos.", "list": []},
+                        "fr": {"title": "{{27e}} – QAAIPC 2014", "province": "", "country": "", "institution": "Équipe: CUET_Black_Flags", "text": "27e parmi 150+ équipes.", "list": []},
+                        "ko": {"title": "{{27위}} – QAAIPC 2014", "province": "", "country": "", "institution": "팀: CUET_Black_Flags", "text": "150+ 팀 중 27위.", "list": []}
                     }
                 },
 

@@ -4,26 +4,26 @@
             "en": {
                 "title_short": "Welcome!",
                 "title_short_nav": "About me",
-                "title_long_prefix": "Hello...",
-                "title_long": "I'm {{Mark Choi!}}"
+                "title_long_prefix": "Hey folks, I'm",
+                "title_long": "{{Nazmul Islam!}}"
             },
             "es": {
                 "title_short": "¡Saludos!",
                 "title_short_nav": "Sobre mí",
-                "title_long_prefix": "Hola...",
-                "title_long": "Soy {{Mark Choi!}}"
+                "title_long_prefix": "Hola, soy",
+                "title_long": "{{Nazmul Islam!}}"
             },
             "fr": {
                 "title_short": "Salut !",
                 "title_short_nav": "À propos",
-                "title_long_prefix": "Salut...",
-                "title_long": "Je suis {{Mark Choi !}}"
+                "title_long_prefix": "Salut, je suis",
+                "title_long": "{{Nazmul Islam !}}"
             },
             "ko": {
                 "title_short": "환영합니다!",
                 "title_short_nav": "소개",
-                "title_long_prefix": "안녕하세요...",
-                "title_long": "저는 {{최민석}}입니다!"
+                "title_long_prefix": "안녕하세요, 저는",
+                "title_long": "{{Nazmul Islam}}입니다!"
             }
         }
     },
@@ -41,21 +41,33 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Cupertino – CA",
-                    "link": {"href": "", "tooltipString": ""},
-                    "faIcon": "pi pi-map-marker"
+                    "label": "+66 095 840 4473",
+                    "link": {"href": "tel:+660958404473", "tooltipString": "call_me"},
+                    "faIcon": "fa-solid fa-phone"
                 },
                 {
                     "id": 2,
-                    "label": "mark.choi@dev.com",
-                    "link": {"href": "mailto:mark.choi@dev.com", "tooltipString": "email_me"},
+                    "label": "nazmulcuet11@gmail.com",
+                    "link": {"href": "mailto:nazmulcuet11@gmail.com", "tooltipString": "email_me"},
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {
                     "id": 3,
-                    "label": "@ryanbalieiro",
-                    "link": {"href": "https://github.com/ryanbalieiro", "tooltipString": "see_on_github"},
+                    "label": "linkedin.com/in/nazmul-1104",
+                    "link": {"href": "https://www.linkedin.com/in/nazmul-1104", "tooltipString": "open_website"},
+                    "faIcon": "fa-brands fa-linkedin"
+                },
+                {
+                    "id": 4,
+                    "label": "github.com/nazmulcuet11",
+                    "link": {"href": "https://github.com/nazmulcuet11", "tooltipString": "see_on_github"},
                     "faIcon": "fa-brands fa-github"
+                },
+                {
+                    "id": 5,
+                    "label": "nazmul.dev",
+                    "link": {"href": "https://nazmul.dev", "tooltipString": "open_website"},
+                    "faIcon": "fa-solid fa-globe"
                 }
             ]
         },
@@ -76,12 +88,12 @@
             "items": [
                 {
                     "id": 1,
-                    "img": "images/pictures/about-texts-image-1.png",
+                    "img": "images/portfolio-legacy/about-image.jpg",
                     "faIcon": "",
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>I’m a {{PHP}} developer with [[over a decade]] of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs, whether it's building scalable APIs, optimizing system performance, or contributing to full-stack solutions.</p><p>I look forward to collaborating [[with you!]]</p>"
+                            "text": "<p>I’m a {{Swift}}, {{SwiftUI}}, and {{Objective-C}}. Strong foundation in data structures and algorithms. [[7+ years]] of experience building and shipping mobile applications. Proven track record in cross-functional collaboration ; improving software components and architecture; and identifying, triaging, and resolving production issues. Experience in user onboarding, A/B testing, and ensuring user trust in consumer apps.</p><p><p>I look forward to collaborating [[with you!]]</p>"
                         },
                         "es": {
                             "text": "<p>Soy un desarrollador de {{PHP}} con [[más de una década]] de experiencia, especializado en desarrollo backend y con algo de experiencia en frontend. También tengo experiencia práctica en entornos de producción con C++, C#, Go y Python.</p><p>Este variado historial me permite adaptarme a una amplia gama de necesidades de proyectos, ya sea construyendo APIs escalables, optimizando el rendimiento de sistemas o contribuyendo a soluciones full-stack.</p><p>¡Espero con interés colaborar [[contigo!]]</p>"

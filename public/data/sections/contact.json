@@ -84,8 +84,8 @@
                     "id": 1,
                     "faIcon": "fa-solid fa-phone",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "+1 (123) 456-7890",
-                    "link": {"href": "tel:11234567890", "tooltipString": "call_me"},
+                    "label": "+66 095 840 4473",
+                    "link": {"href": "tel:+660958404473", "tooltipString": "call_me"},
                     "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "Phone"},
@@ -98,8 +98,8 @@
                     "id":2,
                     "faIcon": "fa-solid fa-envelope",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "mark.choi@email.com",
-                    "link": {"href": "mailto:mark.choi@email.com", "tooltipString": "email_me"},
+                    "label": "nazmulcuet11@gmail.com",
+                    "link": {"href": "mailto:nazmulcuet11@gmail.com", "tooltipString": "email_me"},
                     "copyToClipboardButton": true,
                     "locales": {
                         "en": {"title": "E-mail"},
@@ -110,8 +110,8 @@
                     "id": 3,
                     "faIcon": "fa-brands fa-linkedin",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://linkedin.com/in/", "tooltipString": "open_website"},
+                    "label": "linkedin.com/in/nazmul-1104",
+                    "link": {"href": "https://www.linkedin.com/in/nazmul-1104", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
                         "en": {"title": "LinkedIn"},
@@ -120,38 +120,30 @@
                 },
                 {
                     "id": 4,
-                    "faIcon": "fa-brands fa-facebook",
+                    "faIcon": "fa-brands fa-github",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "Mark Choi",
-                    "link": {"href": "https://facebook.com/profiles/mark.choi.855/default", "tooltipString": "open_website"},
+                    "label": "github.com/nazmulcuet11",
+                    "link": {"href": "https://github.com/nazmulcuet11", "tooltipString": "see_on_github"},
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "Facebook"},
-                        "ko": {"title": "페이스북"}
+                        "en": {"title": "GitHub"},
+                        "es": {"title": "GitHub"},
+                        "fr": {"title": "GitHub"},
+                        "ko": {"title": "깃허브"}
                     }
                 },
                 {
                     "id": 5,
-                    "faIcon": "fa-brands fa-instagram",
+                    "faIcon": "fa-solid fa-globe",
                     "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@codingmark",
-                    "link": {"href": "https://instagram.com/", "tooltipString": "open_website"},
+                    "label": "nazmul.dev",
+                    "link": {"href": "https://nazmul.dev", "tooltipString": "open_website"},
                     "copyToClipboardButton": false,
                     "locales": {
-                        "en": {"title": "Instagram"},
-                        "ko": {"title": "인스타그램"}
-                    }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-brands fa-tiktok",
-                    "faIconColors": { "bg": "", "fill": "" },
-                    "label": "@markchoi",
-                    "link": {"href": "https://tiktok.com/@markchoi", "tooltipString": "open_website"},
-                    "copyToClipboardButton": false,
-                    "locales": {
-                        "en": { "title": "TikTok" },
-                        "ko": { "title": "틱톡" }
+                        "en": {"title": "Website"},
+                        "es": {"title": "Sitio web"},
+                        "fr": {"title": "Site web"},
+                        "ko": {"title": "웹사이트"}
                     }
                 }
             ]

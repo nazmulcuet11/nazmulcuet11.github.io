@@ -1,8 +1,8 @@
 {
-    "name": "Mark Choi",
+    "name": "Nazmul Islam",
 
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
-    "resumePdfUrl": "",
+    "profilePictureUrl": "images/portfolio-legacy/about-image.jpg",
+    "resumePdfUrl": "resources/Nazmul_Islam___Resume.pdf",
 
     "statusCircleVisible": true,
     "statusCircleVariant": "available",
@@ -10,48 +10,40 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
+            "localized_name": "Nazmul Islam",
+            "localized_name_stylized": " [[Nazmul {{Islam}}]]",
+            "status_message_available_for_freelance": "Available for opportunities!",
             "roles": [
-                "Backend Developer",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
+                "iOS Software Engineer",
+                "Senior Software Engineer",
+                "Swift / SwiftUI Developer"
             ],
-            "name_pronunciation_ipa": "/mark chwe/",
-            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+            "name_pronunciation_ipa": "",
+            "name_pronunciation_audio_url": ""
         },
         "es": {
-            "status_message_available_for_freelance": "¡Disponible para freelance!",
+            "status_message_available_for_freelance": "¡Disponible para oportunidades!",
             "roles": [
-                "Desarrollador Backend",
-                "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
+                "Ingeniero de Software iOS",
+                "Ingeniero de Software Senior",
+                "Desarrollador Swift / SwiftUI"
             ]
         },
         "fr": {
-            "status_message_available_for_freelance": "Disponible pour freelance !",
+            "status_message_available_for_freelance": "Disponible pour des opportunités !",
             "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
+                "Ingénieur Logiciel iOS",
+                "Ingénieur Logiciel Senior",
+                "Développeur Swift / SwiftUI"
             ]
         },
         "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
-            "status_message_available_for_freelance": "프리랜스 가능합니다!",
+            "status_message_available_for_freelance": "기회에 참여할 수 있습니다!",
             "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
-            ],
-            "name_pronunciation_ipa": "/chwe min-seok/",
-            "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
+                "iOS 소프트웨어 엔지니어",
+                "시니어 소프트웨어 엔지니어",
+                "Swift / SwiftUI 개발자"
+            ]
         }
     }
 }
