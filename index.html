@@ -371,7 +371,7 @@
       </div>
 
       <!-- Agoda iOS App -->
-      <div class="row project__card" data-project-tag="mobile-app">
+      <div class="row project__card" data-toggle="modal" data-target="#agoda_modal" data-project-tag="mobile-app">
         <div class="col-md-5 col-lg-4 project__card__image">
           <img src="./images/project/agoda.jpg" alt="Agoda iOS App">
         </div>
@@ -394,7 +394,7 @@
       </div>
 
       <!-- Tawk.to iOS App -->
-      <div class="row project__card" data-project-tag="mobile-app">
+      <div class="row project__card" data-toggle="modal" data-target="#tawkto_modal" data-project-tag="mobile-app">
         <div class="col-md-5 col-lg-4 project__card__image">
           <img src="./images/project/tawkto.jpg" alt="Tawk.to iOS App">
         </div>
@@ -548,6 +548,69 @@
 
   <!-- Project modals -->
   <section class="project__modals">
+    <div class="modal fade project__modal" id="agoda_modal" tabindex="-1" role="dialog" style="display: none;"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content project__modal__content">
+          <div class="modal-header project__modal__header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body col-md-11 col-lg-10 ml-auto mr-auto project__modal__body">
+            <h3 class="project__card__title project__modal__title">Agoda iOS App</h3>
+            <img class="project__modal__image" src="/images/project/agoda-modal.png" alt="Agoda iOS App">
+            <p class="project__card__description project__modal__description">
+              A globally recognized travel booking platform that enables users to find and reserve hotels, flights, and vacation rentals at competitive prices.
+              <br><br>
+              Working on the Agoda iOS app—delivering features end-to-end with SwiftUI and SDUI; led architecture refactoring for recommendation/cross-sell module; contributed to App Refresh (UIKit to SwiftUI); migrated session recovery to SwiftData; optimizing performance and resolving production issues.
+            </p>
+            <div class="project__card__tech-stack">
+              <p class="project__card__stack__title">Used Stack</p>
+              <code class="code code-small m-b-5">Swift</code>
+              <code class="code code-small m-b-5">SwiftUI</code>
+              <code class="code code-small m-b-5">SDUI</code>
+              <code class="code code-small m-b-5">Combine</code>
+              <code class="code code-small m-b-5">SwiftData</code>
+              <code class="code code-small m-b-5">GraphQL</code>
+            </div>
+            <a href="https://apps.apple.com/th/app/agoda-cheap-flights-hotels/id440676901?mt=8" class="project__card__link" target="_blank" rel="noopener">View in App Store &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade project__modal" id="tawkto_modal" tabindex="-1" role="dialog" style="display: none;"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content project__modal__content">
+          <div class="modal-header project__modal__header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body col-md-11 col-lg-10 ml-auto mr-auto project__modal__body">
+            <h3 class="project__card__title project__modal__title">Tawk.to iOS App</h3>
+            <img class="project__modal__image" src="/images/project/tawkto-modal.png" alt="Tawk.to iOS App">
+            <p class="project__card__description project__modal__description">
+              A real-time messaging and customer engagement platform that allows businesses to monitor and communicate with website visitors through live chat and CRM solutions.
+              <br><br>
+              Developed features for the tawk.to iOS app using SwiftUI and Combine—live chat, CRM integrations, and WebSocket-based real-time messaging.
+            </p>
+            <div class="project__card__tech-stack">
+              <p class="project__card__stack__title">Used Stack</p>
+              <code class="code code-small m-b-5">Swift</code>
+              <code class="code code-small m-b-5">SwiftUI</code>
+              <code class="code code-small m-b-5">Combine</code>
+              <code class="code code-small m-b-5">Core Data</code>
+              <code class="code code-small m-b-5">WebSocket</code>
+            </div>
+            <a href="https://apps.apple.com/app/tawk-to/id907458277#?platform=iphone" class="project__card__link" target="_blank" rel="noopener">View in App Store &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="modal fade project__modal" id="comm_chat_modal" tabindex="-1" role="dialog" style="display: none;"
       aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
