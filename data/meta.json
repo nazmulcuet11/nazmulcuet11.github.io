@@ -10,11 +10,31 @@
     "logoPath": "images/logo.png",
     "logoAlt": "logo",
     "links": [
-      { "href": "#about", "label": "About", "active": true },
-      { "href": "#experience", "label": "Experience", "active": false },
-      { "href": "#skill", "label": "Skills", "active": false },
-      { "href": "#project", "label": "Projects", "active": false },
-      { "href": "#contact", "label": "Contact", "active": false }
+      {
+        "href": "#about",
+        "label": "About",
+        "active": true
+      },
+      {
+        "href": "#experience",
+        "label": "Experience",
+        "active": false
+      },
+      {
+        "href": "#skill",
+        "label": "Skills",
+        "active": false
+      },
+      {
+        "href": "#project",
+        "label": "Projects",
+        "active": false
+      },
+      {
+        "href": "#contact",
+        "label": "Contact",
+        "active": false
+      }
     ]
   }
 }

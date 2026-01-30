@@ -5,10 +5,26 @@
     "mapWidth": "400",
     "mapHeight": "300",
     "details": [
-      { "icon": "far fa-envelope", "url": "mailto:nazmulcuet11@gmail.com", "text": "nazmulcuet11@gmail.com" },
-      { "icon": "fas fa-phone", "url": "tel:+660958404473", "text": "+66 095 840 4473" },
-      { "icon": "fas fa-globe", "url": "https://nazmul.dev", "text": "nazmul.dev" },
-      { "icon": "fab fa-skype", "url": "live:nazmulcuet11", "text": "Skype Me" }
+      {
+        "icon": "far fa-envelope",
+        "url": "mailto:nazmulcuet11@gmail.com",
+        "text": "nazmulcuet11@gmail.com"
+      },
+      {
+        "icon": "fas fa-phone",
+        "url": "tel:+660958404473",
+        "text": "+66 095 840 4473"
+      },
+      {
+        "icon": "fas fa-globe",
+        "url": "https://nazmul.dev",
+        "text": "nazmul.dev"
+      },
+      {
+        "icon": "fab fa-skype",
+        "url": "live:nazmulcuet11",
+        "text": "Skype Me"
+      }
     ]
   },
   "footer": {

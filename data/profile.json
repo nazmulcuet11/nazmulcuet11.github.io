@@ -4,17 +4,35 @@
     "welcomeTextMobile": "my website!",
     "headingPrefix": "Hey folks, I'm",
     "name": "Nazmul Islam",
-    "animatedTitles": ["Nazmul Islam", "Software Engineer"],
+    "animatedTitles": [
+      "Nazmul Islam",
+      "Software Engineer"
+    ],
     "bio": "Software Engineer with 7+ years of experience building and shipping mobile applications in Swift, SwiftUI, and Objective-C. Strong foundation in data structures and algorithms. Proven track record collaborating cross-functionally to design, build, and deploy features.",
     "resumeUrl": "/resources/Nazmul_Islam___Resume.pdf",
     "image": "images/about-image.jpg",
     "imageAlt": "svg image",
     "socialLinks": [
-      { "url": "mailto:nazmulcuet11@gmail.com", "icon": "far fa-envelope" },
-      { "url": "https://github.com/nazmulcuet11", "icon": "fab fa-github" },
-      { "url": "https://www.linkedin.com/in/nazmul-1104/", "icon": "fab fa-linkedin" },
-      { "url": "https://stackoverflow.com/users/5482600/nazmul-islam", "icon": "fab fa-stack-overflow" },
-      { "url": "https://www.facebook.com/nazmulislam1104", "icon": "fab fa-facebook-square" }
+      {
+        "url": "mailto:nazmulcuet11@gmail.com",
+        "icon": "far fa-envelope"
+      },
+      {
+        "url": "https://github.com/nazmulcuet11",
+        "icon": "fab fa-github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/nazmul-1104/",
+        "icon": "fab fa-linkedin"
+      },
+      {
+        "url": "https://stackoverflow.com/users/5482600/nazmul-islam",
+        "icon": "fab fa-stack-overflow"
+      },
+      {
+        "url": "https://www.facebook.com/nazmulislam1104",
+        "icon": "fab fa-facebook-square"
+      }
     ]
   },
   "summary": {
@@ -42,12 +60,30 @@
     "title": "Strengths",
     "subtitle": "There's always room for improvement. 😃",
     "items": [
-      { "icon": "fas fa-hands-helping", "label": "Team Work" },
-      { "icon": "fas fa-cloud-sun", "label": "Optimist" },
-      { "icon": "fas fa-comments", "label": "Communication" },
-      { "icon": "fas fa-laptop-code", "label": "Problem Solving" },
-      { "icon": "fab fa-leanpub", "label": "Self Learning" },
-      { "icon": "fas fa-user-graduate", "label": "Mentoring" }
+      {
+        "icon": "fas fa-hands-helping",
+        "label": "Team Work"
+      },
+      {
+        "icon": "fas fa-cloud-sun",
+        "label": "Optimist"
+      },
+      {
+        "icon": "fas fa-comments",
+        "label": "Communication"
+      },
+      {
+        "icon": "fas fa-laptop-code",
+        "label": "Problem Solving"
+      },
+      {
+        "icon": "fab fa-leanpub",
+        "label": "Self Learning"
+      },
+      {
+        "icon": "fas fa-user-graduate",
+        "label": "Mentoring"
+      }
     ]
   }
 }

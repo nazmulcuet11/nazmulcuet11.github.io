@@ -1,8 +1,20 @@
 {
   "projectFilters": [
-    { "tag": "all", "label": "all", "active": true },
-    { "tag": "mobile-app", "label": "mobile", "active": false },
-    { "tag": "web-site", "label": "web", "active": false }
+    {
+      "tag": "all",
+      "label": "all",
+      "active": true
+    },
+    {
+      "tag": "mobile-app",
+      "label": "mobile",
+      "active": false
+    },
+    {
+      "tag": "web-site",
+      "label": "web",
+      "active": false
+    }
   ],
   "projects": [
     {
@@ -13,7 +25,17 @@
       "modalDescription": "A globally recognized travel booking platform that enables users to find and reserve hotels, flights, and vacation rentals at competitive prices.\n\nWorking on the Agoda iOS app—delivering features end-to-end with SwiftUI and SDUI; led architecture refactoring for recommendation/cross-sell module; contributed to App Refresh (UIKit to SwiftUI); migrated session recovery to SwiftData; optimizing performance and resolving production issues.",
       "image": "./images/project/agoda.jpg",
       "modalImage": "/images/project/agoda-modal.png",
-      "techStack": ["Swift", "SwiftUI", "SDUI", "Combine", "SwiftData", "GraphQL", "REST/HTTP", "Objective-C", "UIKit"],
+      "techStack": [
+        "Swift",
+        "SwiftUI",
+        "SDUI",
+        "Combine",
+        "SwiftData",
+        "GraphQL",
+        "REST/HTTP",
+        "Objective-C",
+        "UIKit"
+      ],
       "link": "https://apps.apple.com/th/app/agoda-cheap-flights-hotels/id440676901?mt=8",
       "linkLabel": "View in App Store →",
       "tag": "mobile-app"
@@ -26,7 +48,16 @@
       "modalDescription": "A real-time messaging and customer engagement platform that allows businesses to monitor and communicate with website visitors through live chat and CRM solutions.\n\nDeveloped features for the tawk.to iOS app using SwiftUI and Combine—live chat, CRM integrations, and WebSocket-based real-time messaging.",
       "image": "./images/project/tawkto.jpg",
       "modalImage": "/images/project/tawkto-modal.png",
-      "techStack": ["Swift", "SwiftUI", "Combine", "Core Data", "WebSocket", "REST/HTTP", "Objective-C", "UIKit"],
+      "techStack": [
+        "Swift",
+        "SwiftUI",
+        "Combine",
+        "Core Data",
+        "WebSocket",
+        "REST/HTTP",
+        "Objective-C",
+        "UIKit"
+      ],
       "link": "https://apps.apple.com/app/tawk-to/id907458277#?platform=iphone",
       "linkLabel": "View in App Store →",
       "tag": "mobile-app"
@@ -39,7 +70,15 @@
       "modalDescription": "CommChat is a FREE messaging and calling app that promises – and delivers – utmost privacy and security. With innovative features such as auto translation, animated avatars and more, CommChat has made staying connected online easier and more fun! Make audio and video calls, send text messages, form a group chat with friends and family – all in absolute privacy!\n\nUnlimited Audio & Video Calls. No limits, no surveillance, No cost!\n\nI have developed the chat module for the CommChat iOS App that uses MQTT to transmit messages and signal protocol to establish the end-to-end encrypted messaging session. Used URLSession to develop the networking service layer that facilitates communication with backend REST APIs, uploading/downloading files in the background. I developed backup/restore capability using iCloud Container and Spotlight Metadata Query APIs to back up user's files and messages and restore them on demand. Used CouchbaseLiteSwift to develop the persistence storage for messages. Developed Screen-Share capability using Broadcast Extension to capture user's iPhone screen and publish it during a call.",
       "image": "./images/project/commchat.png",
       "modalImage": "/images/project/commchat-modal.png",
-      "techStack": ["Swift", "MQTT", "CouchbaseLiteSwift", "CocoaLumberjack", "CallKit", "MessageKit", "BackgroundTasks"],
+      "techStack": [
+        "Swift",
+        "MQTT",
+        "CouchbaseLiteSwift",
+        "CocoaLumberjack",
+        "CallKit",
+        "MessageKit",
+        "BackgroundTasks"
+      ],
       "link": "https://apps.apple.com/us/app/commchat-messenger/id1558420730#?platform=iphone",
       "linkLabel": "View in App Store →",
       "tag": "mobile-app"
@@ -52,7 +91,13 @@
       "modalDescription": "ShareTrip is everything that you have been missing in your travel till now! Be it booking your flight or choosing exciting holiday deals, with ShareTrip, you can do it all! Play wheel of fortune, win TripCoins and use them to save on your bookings!\n\nBook hotels, flights, transfers, tours and holiday bundles on the app and earn TripCoins! Choose from over 1 million accommodations worldwide, book a flight to anywhere in the world, add tours and transfers and literally make your own itinerary. Pay through local cards or the international one. Redeem TripCoins to avail special discount on your bookings. ShareTrip offers you so many options that you simply can't believe!\n\nI developed a couple of modules (e.g. profile, package booking) in the ShareTrip app. Used the MVVM design pattern, Alamofire for API data fetching, Kingfisher for image caching, and IQKeyboard for improved user input experience.",
       "image": "./images/project/sharetrip.png",
       "modalImage": "/images/project/sharetrip-modal.png",
-      "techStack": ["swift", "alamofire", "kingfisher", "koloda", "IQKeyboard"],
+      "techStack": [
+        "swift",
+        "alamofire",
+        "kingfisher",
+        "koloda",
+        "IQKeyboard"
+      ],
       "link": "https://apps.apple.com/us/app/sharetrip-travel-save-repeat/id1469335892?ls=1",
       "linkLabel": "View in App Store →",
       "tag": "mobile-app"
@@ -65,7 +110,11 @@
       "modalDescription": "With SmartThings, you can connect and control multiple devices quicker and easier. No matter where you are, you can monitor and control smart devices, home appliances (refrigerator, washer, dryer, oven range, dishwasher, cooktop, robot vacuum, air conditioner, air purifier, etc.), TVs, and speakers registered on the server.\n\nI developed and managed authentication-related modules in this app. Used the Reactive Swift framework for asynchronous API implementation.",
       "image": "./images/project/smartthings.png",
       "modalImage": "/images/project/smartthings-modal.png",
-      "techStack": ["swift", "reactive swift", "promise kit"],
+      "techStack": [
+        "swift",
+        "reactive swift",
+        "promise kit"
+      ],
       "link": "https://apps.apple.com/us/app/smartthings/id1222822904",
       "linkLabel": "View in App Store →",
       "tag": "mobile-app"
@@ -78,7 +127,13 @@
       "modalDescription": "The easiest way to search and compare more than 500 condo projects, 5,000 floor plans and 200 developers in Toronto & the GTA. You can find your next new condo by price, location, occupancy date, amenities and much more, using an easy-to-use, map-based search engine.\n\nUsed jQuery to implement some client-side features. Fixed bugs and used .NET for backend requirements.",
       "image": "./images/project/condonow.png",
       "modalImage": "/images/project/condonow-modal.png",
-      "techStack": ["c#", ".net", "javascript", "html", "css"],
+      "techStack": [
+        "c#",
+        ".net",
+        "javascript",
+        "html",
+        "css"
+      ],
       "link": "https://condonow.com/",
       "linkLabel": "Visit Web Site →",
       "tag": "web-site"
@@ -91,7 +146,12 @@
       "modalDescription": "Premier source of natural and organic products, at uVited you can experience one of the most comprehensive and cost-conscious catalogs of natural and organic products to keep you healthy and happy.\n\nWrote SQL triggers and stored procedures in SQL Server for profit calculation. Wrote a console application using regex to convert existing PHP code for front-end rendering to equivalent Razor code. Developed an API for the mobile team to use in the home delivery system.",
       "image": "./images/project/uvited.png",
       "modalImage": "/images/project/uvited-modal.png",
-      "techStack": ["c#", ".net", "sql server", "javascript"],
+      "techStack": [
+        "c#",
+        ".net",
+        "sql server",
+        "javascript"
+      ],
       "link": "https://www.uvited.com/",
       "linkLabel": "Visit Web Site →",
       "tag": "web-site"
@@ -104,7 +164,12 @@
       "modalDescription": "Priyo Shop is the ultimate online shopping destination for Bangladesh offering completely hassle-free shopping experience through secure and trusted gateways. Now shopping is easier, faster and always joyous.\n\nConsumed API from <a href=\"https://www.alibaba.com/\" target=\"_blank\" rel=\"noopener\">alibaba.com</a> to fetch their product list and sell through Priyoshop as their local distributor.",
       "image": "./images/project/priyoshop.png",
       "modalImage": "/images/project/priyoshop-modal.png",
-      "techStack": ["c#", ".net", "sql server", "javascript"],
+      "techStack": [
+        "c#",
+        ".net",
+        "sql server",
+        "javascript"
+      ],
       "link": "https://priyoshop.com/",
       "linkLabel": "Visit Web Site →",
       "tag": "web-site"

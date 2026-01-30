@@ -2,11 +2,42 @@
   "skills": {
     "title": "Skills",
     "groups": [
-      ["Swift", "Kotlin", "Objective-C", "Python", "C/C++", "Go", "SQL"],
-      ["SwiftUI", "UIKit", "Combine", "CoreData", "Ktor"],
-      ["Git", "Xcode", "IntelliJ IDEA", "Tuist", "Jira", "Firebase", "Grafana"],
-      ["REST APIs", "GraphQL", "WebSockets"],
-      ["XCTest", "Unit Test", "UI Test", "Snapshot Test"]
+      [
+        "Swift",
+        "Kotlin",
+        "Objective-C",
+        "Python",
+        "C/C++",
+        "Go",
+        "SQL"
+      ],
+      [
+        "SwiftUI",
+        "UIKit",
+        "Combine",
+        "CoreData",
+        "Ktor"
+      ],
+      [
+        "Git",
+        "Xcode",
+        "IntelliJ IDEA",
+        "Tuist",
+        "Jira",
+        "Firebase",
+        "Grafana"
+      ],
+      [
+        "REST APIs",
+        "GraphQL",
+        "WebSockets"
+      ],
+      [
+        "XCTest",
+        "Unit Test",
+        "UI Test",
+        "Snapshot Test"
+      ]
     ]
   }
 }
