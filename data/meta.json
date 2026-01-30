@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "title": "nazmul_",
+    "description": "Software Engineer with 7+ years building mobile apps in Swift, SwiftUI, and Objective-C. Portfolio of Nazmul Islam.",
+    "author": "Nazmul Islam",
+    "favicon": "images/logo.png"
+  },
+  "nav": {
+    "brandName": "nazmul_",
+    "logoPath": "images/logo.png",
+    "logoAlt": "logo",
+    "links": [
+      { "href": "#about", "label": "About", "active": true },
+      { "href": "#experience", "label": "Experience", "active": false },
+      { "href": "#skill", "label": "Skills", "active": false },
+      { "href": "#project", "label": "Projects", "active": false },
+      { "href": "#contact", "label": "Contact", "active": false }
+    ]
+  }
+}

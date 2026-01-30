@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="{{meta.description}}">
+  <meta name="author" content="{{meta.author}}">
+
+  <title>{{meta.title}}</title>
+  <link rel="icon" href="{{meta.favicon}}">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Fontawsome -->
+  <script src="https://kit.fontawesome.com/8388015ca2.js" crossorigin="anonymous"></script>
+
+  <!-- MAIN STYLE -->
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <!-- MENU -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="menu">
+    <div class="container">
+      <!-- Brand -->
+      <a class="navbar-brand" href="index.html">
+        <img class="navbar-brand__logo" src="{{nav.logoPath}}" alt="{{nav.logoAlt}}">{{nav.brandName}}
+      </a>
+
+      <!-- Hamburger -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Item -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        {{#each nav.links}}
+        <a href="{{href}}" class="nav-item nav-link{{#if active}} nav-link--active{{/if}}"><span data-hover="{{label}}">{{label}}</span></a>
+        {{/each}}
+      </div>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="row mobile--order-reverse">
+        <div class="col-lg-7">
+          <div class="about__text">
+
+            <small class="wellcome-text">
+              {{about.welcomeText}} <span class="mobile-block">{{about.welcomeTextMobile}}</span>
+            </small>
+
+            <h1>
+              <span>{{about.headingPrefix}}</span>
+              <div class="animated-info">
+                {{#each about.animatedTitles}}
+                <span class="animated-info__item">{{this}}</span>
+                {{/each}}
+              </div>
+            </h1>
+
+            <p>
+              {{about.bio}}
+            </p>
+
+            <div class="custom-btn-group">
+              <a href="{{about.resumeUrl}}" class="btn custom-btn custom-btn--dark custom-btn--link"
+                target="_blank"><i class="far fa-file-alt"></i> Download Resume</a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="about__image svg">
+            <img src="{{about.image}}" class="img-fluid" alt="{{about.imageAlt}}">
+          </div>
+
+          <ul class="about__social">
+            {{#each about.socialLinks}}
+            <li class="about__social__item">
+              <a href="{{url}}" target="_blank" rel="noopener">
+                <i class="{{icon}}"></i>
+              </a>
+            </li>
+            {{/each}}
+          </ul>
+
+        </div>
+      </div>
+
+      <div class="w-100"></div>
+
+      <div class="row about__bottom">
+        <div class="col-lg-7">
+          <h3 class="mb-4">{{summary.title}}</h3>
+          <ul class="fa-ul summary__list">
+            {{#each summary.items}}
+            <li><i class="fa-li fas fa-chevron-right"></i>{{{this}}}</li>
+            {{/each}}
+          </ul>
+        </div>
+
+        <div class="col-lg-5">
+          <h3 class="mb-4 mobile--mt-2">{{education.title}}</h3>
+          <ul class="fa-ul">
+            {{#each education.items}}
+            <li>
+              <i class="fa-li fas fa-school"></i>
+              <div>
+                <p class="education__title">{{institution}}</p>
+                <p class="education__session">{{session}}</p>
+                <p class="education__degree">{{degree}}</p>
+                <p class="education__gpa">{{gpa}}</p>
+                <p class="education__coursework">{{coursework}}</p>
+              </div>
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Strengths -->
+  <section class="section strength bg-colored parallax">
+    <div class="container">
+      <h2 class="section__title section__title--center">{{strengths.title}}</h2>
+      <p class="section__subtitle">{{strengths.subtitle}}</p>
+      <div class="row strength__list">
+        {{#each strengths.items}}
+        <div class="col-sm-4 strength__list__item">
+          <div class="strength__list__item__icon"><i class="{{icon}}"></i></div>
+          {{label}}
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <h2 class="section__title section__title--center">Experience</h2>
+
+      <div class="timeline timeline--two-col">
+        {{#each experience}}
+        <div class="timeline__item timeline__item--two-col">
+          <div class="timeline__item__content timeline__item__content--two-col">
+            <div class="experience__session">{{session}}</div>
+            <div class="experience__title">
+              <a href="{{url}}" target="_blank" rel="noopener">{{company}}</a>
+              <section class="experience__location">
+                <i class="fas fa-map-marker-alt experience__location__icon"></i> {{location}}
+              </section>
+            </div>
+            <div class="experience__designation">{{designation}}</div>
+            <p class="experience__description">
+              {{description}}
+            </p>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="section skill bg-colored parallax" id="skill">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h2 class="section__title section__title--two-col">{{skills.title}}</h2>
+        </div>
+
+        <div class="col-lg-8">
+          {{#each skills.groups}}
+          <div class="skill__items">
+            {{#each this}}
+            <code class="code">{{this}}</code>
+            {{/each}}
+          </div>
+          {{#unless @last}}
+          <hr>
+          {{/unless}}
+          {{/each}}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section project" id="project">
+    <div class="container">
+      <h2 class="section__title section__title--center">Projects</h2>
+
+      <div class="row project__filter justify-content-center">
+        <div class="col-12">
+          <div class="btn-toolbar justify-content-center">
+            <div class="btn-group flex-wrap">
+              {{#each projectFilters}}
+              <a data-project-target-tag="{{tag}}"
+                class="btn btn-primary project__filter__link{{#if active}} project__filter__link--active{{/if}}">{{label}}</a>
+              {{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {{#each projects}}
+      <div class="row project__card" data-toggle="modal" data-target="#{{id}}_modal" data-project-tag="{{tag}}">
+        <div class="col-md-5 col-lg-4 project__card__image">
+          <img src="{{image}}" alt="{{title}}">
+        </div>
+        <div class="col-md-7 col-lg-8 project__card__info">
+          <h3 class="project__card__title">{{title}}</h3>
+          <p class="project__card__description">
+            {{description}}
+          </p>
+          <div class="project__card__tech-stack">
+            <p class="project__card__stack__title">Used Stack</p>
+            {{#each techStack}}
+            <code class="code code-small m-b-5">{{this}}</code>
+            {{/each}}
+          </div>
+          <a href="{{link}}" class="project__card__link" target="_blank" rel="noopener">{{linkLabel}}</a>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </section>
+
+
+  <!-- Project modals -->
+  <section class="project__modals">
+    {{#each projects}}
+    <div class="modal fade project__modal" id="{{id}}_modal" tabindex="-1" role="dialog" style="display: none;"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content project__modal__content">
+          <div class="modal-header project__modal__header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body col-md-11 col-lg-10 ml-auto mr-auto project__modal__body">
+            <h3 class="project__card__title project__modal__title">{{modalTitle}}</h3>
+            <img class="project__modal__image" src="{{modalImage}}" alt="{{title}}">
+            <p class="project__card__description project__modal__description">
+              {{{modalDescriptionHtml}}}
+            </p>
+            <div class="project__card__tech-stack">
+              <p class="project__card__stack__title">Used Stack</p>
+              {{#each techStack}}
+              <code class="code code-small m-b-5">{{this}}</code>
+              {{/each}}
+            </div>
+            <a href="{{link}}" class="project__card__link" target="_blank" rel="noopener">{{linkLabel}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{/each}}
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact py-5 bg-colored parallax" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mr-lg-5">
+          <div class="map w-100">
+            <iframe
+              src="{{contact.mapEmbedUrl}}"
+              width="{{contact.mapWidth}}" height="{{contact.mapHeight}}" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="contact__details">
+            <h2 class="mb-4">{{contact.heading}}</h2>
+            <div class="fa-ul contact__list">
+              {{#each contact.details}}
+              <div class="contact__list__item">
+                <i class="{{icon}}"></i>
+                <a href="{{url}}" target="_blank" rel="noopener">{{text}}</a>
+              </div>
+              {{#unless @last}}<hr>{{/unless}}
+              {{/each}}
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-5 parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <p class="copyright-text text-center">{{footer.copyright}}</p>
+          <p class="copyright-text text-center">{{footer.designerLabel}}
+            <a href="{{footer.designerLink}}">{{footer.designerName}}</a>
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="scripts/bootstrap.min.js"></script>
+  <script src="scripts/popper.min.js"></script>
+  <script src="scripts/smoothscroll.js"></script>
+  <script src="scripts/custom.js"></script>
+
+</body>
+
+</html>

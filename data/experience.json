@@ -1,0 +1,52 @@
+{
+  "experience": [
+    {
+      "session": "Dec 2022 – Present",
+      "company": "Agoda",
+      "url": "https://www.agoda.com",
+      "location": "Thailand",
+      "designation": "Senior Software Engineer (iOS)",
+      "description": "Working on the Agoda iOS app—a globally recognized travel booking platform. Delivering features end-to-end with SwiftUI and SDUI; led architecture refactoring for recommendation/cross-sell module; contributed to App Refresh (UIKit to SwiftUI); migrated session recovery to SwiftData; optimized performance and resolved production issues. Collaborating with product, design, backend, and analytics across multiple repositories."
+    },
+    {
+      "session": "Dec 2021 – Nov 2022",
+      "company": "tawk.to, Inc",
+      "url": "https://www.tawk.to",
+      "location": "Remote (USA)",
+      "designation": "Software Engineer (iOS)",
+      "description": "Real-time messaging and customer engagement platform. Architected and implemented features using SwiftUI and Combine; reengineered core app components for responsiveness and load times; collaborated with cross-functional teams on onboarding; enforced coding standards and code reviews."
+    },
+    {
+      "session": "Jun 2020 – Jul 2021",
+      "company": "Tiger IT",
+      "url": "https://www.tigerit.com/",
+      "location": "Dhaka",
+      "designation": "Software Engineer (iOS)",
+      "description": "CommChat—secure, end-to-end encrypted messaging app with chat, screen sharing, and backup/restore. Engineered core chat (E2E encryption, backup/restore, screen-sharing); developed low-level networking layer; refined architecture and API specs; mentored junior developers."
+    },
+    {
+      "session": "Jun 2019 – Jun 2020",
+      "company": "Share Trip",
+      "url": "https://sharetrip.net/",
+      "location": "Dhaka",
+      "designation": "Software Engineer (iOS)",
+      "description": "Travel booking platform for flights, hotels, and holiday packages. Built and integrated holiday and vehicle booking features; restructured flight and hotel booking systems; partnered with designers on iOS experience; guided new team members and assisted in sprint planning and release management."
+    },
+    {
+      "session": "Feb 2018 – Apr 2019",
+      "company": "Samsung Research Bangladesh",
+      "url": "https://research.samsung.com/srbd",
+      "location": "Dhaka",
+      "designation": "Software Engineer (iOS)",
+      "description": "SmartThings iOS app—smart home automation. Designed modular UI components with UIKit AutoLayout; restructured legacy codebase for testability and increased test coverage by 20%; led knowledge-sharing sessions for Samsung Software Competency Test."
+    },
+    {
+      "session": "Apr 2017 – Feb 2018",
+      "company": "Brain Station 23",
+      "url": "https://brainstation-23.com/",
+      "location": "Dhaka",
+      "designation": "Junior Software Engineer (.Net)",
+      "description": "Designed and developed REST APIs with .Net; wrote complex SQL stored procedures for eCommerce profit calculation; diagnosed system issues and implemented feature enhancements (uVited, CondoNow)."
+    }
+  ]
+}
