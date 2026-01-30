@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Nazmul Islam
 
-### 📱 iOS Software Engineer · 7+ years building & shipping mobile apps
+### 📱 Software Engineer · 7+ years building & shipping mobile apps
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nazmul-1104)
 [![Website](https://img.shields.io/badge/Website-nazmul.dev-4A90D9?style=for-the-badge)](https://nazmul.dev)
@@ -10,7 +10,7 @@
 
 ## 👤 About me
 
-I'm an **iOS Software Engineer** with **7+ years** of experience building and shipping mobile applications in **Swift**, **SwiftUI**, and **Objective-C**. I have a strong foundation in data structures and algorithms from competitive programming and coursework.
+I'm a **Software Engineer** with **7+ years** of experience building and shipping mobile applications in **Swift**, **SwiftUI**, and **Objective-C**. I have a strong foundation in data structures and algorithms from competitive programming and coursework.
 
 I focus on:
 - 🚀 Designing and shipping features end-to-end with cross-functional teams
