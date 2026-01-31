@@ -1,0 +1,36 @@
+{
+  "contact": {
+    "heading": "Interested in working together? Let's talk",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.949770140671!2d100.5018!3d13.7563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailand!5e0!3m2!1sen!2sth!4v1706630400!5m2!1sen!2sth",
+    "mapWidth": "400",
+    "mapHeight": "300",
+    "details": [
+      {
+        "icon": "far fa-envelope",
+        "url": "mailto:nazmulcuet11@gmail.com",
+        "text": "nazmulcuet11@gmail.com"
+      },
+      {
+        "icon": "fas fa-phone",
+        "url": "tel:+660958404473",
+        "text": "+66 095 840 4473"
+      },
+      {
+        "icon": "fas fa-globe",
+        "url": "https://nazmul.dev",
+        "text": "nazmul.dev"
+      },
+      {
+        "icon": "fab fa-skype",
+        "url": "live:nazmulcuet11",
+        "text": "Skype Me"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "Copyright © 2025 Nazmul Islam. All rights reserved.",
+    "designerLabel": "Designed by",
+    "designerLink": "mailto:nazmulcuet@gmail.com",
+    "designerName": "nazmul"
+  }
+}

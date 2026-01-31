@@ -85,4 +85,19 @@ GPA: 3.57 / 4.0 · Data Structures, Algorithms, OS, DBMS, Software Engineering, 
 
 ---
 
+## Building the site
+
+The site is generated from JSON data and a Handlebars template. To build locally:
+
+```bash
+npm install
+npm run build
+```
+
+Output is in `dist/`. To preview, serve the `dist/` folder (e.g. `npx serve dist`).
+
+**Deployment:** On every push to `main`, the GitHub Action builds the site and deploys it to GitHub Pages. In the repo **Settings → Pages**, set **Source** to **GitHub Actions** so the workflow deploys the built site. The custom domain (CNAME) is included in the build.
+
+---
+
 *✨ Open to interesting iOS and mobile engineering opportunities.*

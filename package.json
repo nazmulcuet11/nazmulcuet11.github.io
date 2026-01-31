@@ -1,0 +1,11 @@
+{
+  "name": "nazmulcuet11.github.io",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}

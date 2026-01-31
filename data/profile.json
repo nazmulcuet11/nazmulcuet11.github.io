@@ -1,0 +1,89 @@
+{
+  "about": {
+    "welcomeText": "Welcome to",
+    "welcomeTextMobile": "my website!",
+    "headingPrefix": "Hi folks, I'm",
+    "name": "Nazmul Islam",
+    "animatedTitles": [
+      "Nazmul Islam",
+      "Software Engineer"
+    ],
+    "bio": "Software Engineer with 7+ years of experience building and shipping mobile applications in Swift, SwiftUI, and Objective-C. Strong foundation in data structures and algorithms. Proven track record collaborating cross-functionally to design, build, and deploy features.",
+    "resumeUrl": "/resources/Nazmul_Islam___Resume.pdf",
+    "image": "images/about-image.jpg",
+    "imageAlt": "svg image",
+    "socialLinks": [
+      {
+        "url": "mailto:nazmulcuet11@gmail.com",
+        "icon": "far fa-envelope"
+      },
+      {
+        "url": "https://github.com/nazmulcuet11",
+        "icon": "fab fa-github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/nazmul-1104/",
+        "icon": "fab fa-linkedin"
+      },
+      {
+        "url": "https://stackoverflow.com/users/5482600/nazmul-islam",
+        "icon": "fab fa-stack-overflow"
+      },
+      {
+        "url": "https://www.facebook.com/nazmulislam1104",
+        "icon": "fab fa-facebook-square"
+      }
+    ]
+  },
+  "summary": {
+    "title": "Summary",
+    "items": [
+      "Software Engineer with 7+ years; strong in Swift, SwiftUI, Objective-C; user onboarding, A/B testing, and production issue triage.",
+      "Solved 1000+ competitive programming problems on <a href=\"https://leetcode.com/nazmulcuet11/\" target=\"_blank\" rel=\"noopener\">LeetCode</a>, <a href=\"https://www.interviewbit.com/profile/badrobot\" target=\"_blank\" rel=\"noopener\">InterviewBit</a>, <a href=\"https://www.hackerrank.com/nazmul_cuet11\" target=\"_blank\" rel=\"noopener\">HackerRank</a>, <a href=\"https://uhunt.onlinejudge.org/id/200113\" target=\"_blank\" rel=\"noopener\">UVA</a>, <a href=\"https://lightoj.com/user/nazmulshohag\" target=\"_blank\" rel=\"noopener\">LightOJ</a>, <a href=\"https://codeforces.com/profile/nazmul_islam\" target=\"_blank\" rel=\"noopener\">CodeForces</a>, <a href=\"https://certificate.algoexpert.io/AE-64d078fe50\" target=\"_blank\" rel=\"noopener\">AlgoExpert</a>.",
+      "Runner-up, <a href=\"https://www.grameenphone.com/about/career/digital-ninja\" target=\"_blank\" rel=\"noopener\">Grameenphone Digital Ninja Hackathon 2021</a>; Professional Level, Samsung Software Competency Test 2018.",
+      "2nd place (CUET_Black_Flags), IIUPC 2015; 27th (CUET_Black_Flags), QAAIPC 2014."
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "institution": "Chittagong University of Engineering & Technology",
+        "session": "May 2012 – Apr 2017",
+        "degree": "Bachelor of Science in Computer Science & Engineering",
+        "gpa": "Cumulative GPA: 3.57 / 4.0",
+        "coursework": "Major coursework: Data Structures, Algorithms, Operating Systems, Database Management Systems, Software Engineering, Computer Networking"
+      }
+    ]
+  },
+  "strengths": {
+    "title": "Strengths",
+    "subtitle": "There's always room for improvement. 😃",
+    "items": [
+      {
+        "icon": "fas fa-hands-helping",
+        "label": "Team Work"
+      },
+      {
+        "icon": "fas fa-cloud-sun",
+        "label": "Optimist"
+      },
+      {
+        "icon": "fas fa-comments",
+        "label": "Communication"
+      },
+      {
+        "icon": "fas fa-laptop-code",
+        "label": "Problem Solving"
+      },
+      {
+        "icon": "fab fa-leanpub",
+        "label": "Self Learning"
+      },
+      {
+        "icon": "fas fa-user-graduate",
+        "label": "Mentoring"
+      }
+    ]
+  }
+}
