@@ -96,7 +96,7 @@ npm run build
 
 Output is in `dist/`. To preview, serve the `dist/` folder (e.g. `npx serve dist`).
 
-**Deployment:** On every push to `main`, the GitHub Action builds the site and deploys it to GitHub Pages. In the repo **Settings → Pages**, set **Source** to **GitHub Actions** so the workflow deploys the built site. The custom domain (CNAME) is included in the build.
+**Deployment:** The GitHub Action runs on every push to `main`/`master` (build only). To publish the site to GitHub Pages, run the workflow manually: **[Deploy to GitHub Pages](https://github.com/nazmulcuet11/nazmulcuet11.github.io/actions/workflows/deploy.yml)** → click **Run workflow** → **Run workflow**. In the repo **Settings → Pages**, set **Source** to **GitHub Actions**. The custom domain (CNAME) is included in the build.
 
 ---
 
